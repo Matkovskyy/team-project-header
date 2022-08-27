@@ -14,29 +14,37 @@
 </head>
 <body>
     <header class="header">
-<div class="container header_container">
-    <a href="" class="logo"> 
-    <svg class="logo-icon">
-        <use href=""></use>
-    </svg> Filmoteka</a>
-<!-- ----Form------ -->
-<form class="search-form" id="search-form">
-    <div class="wrapper">
-        <input type="text" name="searchQuery" autocomplete="off" placeholder="Movie Search" />
-        <button type="submit"><svg width=12 height=12>
-                <use href="./img/symbol-defs.svg#icon-search"></use>
-            </svg></button>
-    </div>
-</form>
-
-<!-- ----nav----- -->
-<nav>
-    <ul class="nav">
-<li class="nav__item"><a href="" class=" nav__link--current">HOME</a></li>
-<li class="nav__item"><a href="./my-librarnav__linky.html" class="nav__link">MY LIBRARY</a></li>
-    </ul>
-</nav>
-</div>
+        <div class="header__container">
+            <nav class="nav">
+                <button class="logo btn">
+                    <svg width="24" height="23">
+                        <use href="./images/sprite.svg#icon-logo"></use>
+                    </svg>
+                    <span class="logo-text">Filmoteka</span>
+                </button>
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--current">
+                        <a class="nav__btn btn" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__btn btn" href="./my-library.html">MY LIBRARY</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="searching-form">
+                <form class="search-form" id="search-form">
+                                    <input type="text" name="searchQuery" autocomplete="off" placeholder="Movie Search"
+                        class="search-form__input" />
+                    <button type="submit" class="button-search"><svg width=12 height=12>
+                            <use href="./images/symbol-defs.svg#icon-search-2"></use>
+                        </svg></button>
+                            </form>
+            </div>
+                
+            
+            
+    
+        </div>
     </header>
 </body>
 </html>
