@@ -28,9 +28,37 @@ ul {
             margin: 0;
             padding: 0;
 }
-
+nav{
+    margin-top: 49px;
+    
+}
 .nav {
     display: flex;
     align-items: center;
+      
+}
+.nav__item{
+    margin-left: 39px;
     
+}
+.nav__item:last-child {
+    margin-right: 0;
+}
+.nav__link{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1,17;
+            Fill: Solid rgba(0, 0, 0, 0.2) Fill: Solid #FFFFFF
+
+}
+
+.search-form {
+    margin-top: 116px;
+    margin-bottom: 80px;
+}
+
+a{
+    text-decoration: none;
 }
